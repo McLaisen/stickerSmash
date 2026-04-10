@@ -25,6 +25,10 @@ export default function TabLayout() {
                     ),
                 }} 
             />
+            <Tabs.Screen 
+                name="employees/[employee]"
+                options={{ href: null, headerShown: false}}
+            />
             <Tabs.Screen
              name="about"
              options={{
